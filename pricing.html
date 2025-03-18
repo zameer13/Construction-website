@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+    <title>A & A Constructions Ltd.</title>
+    <link rel = "icon" href = "img/logo.jpeg" type = "image/x-icon">
+    <meta charset="utf-8">
+    <meta content="IE=chrome" http-equiv="X-UA-Compatible"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&amp;display=swap"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="stylepricing.css"> -->
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="/module" defer src="node_modules/swup/dist/Swup.module.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+
+<body>
+
+  <main id="swup" class="transition-fade pricing-main">
+    <div class="main-page" id="main-page">
+
+      <a href="index.html">
+        <div class= "logo_main"><img src="img/logo_no_bg2_3.png">
+          <p class="logo_name">AMMAR & ARBAB <span>CONSTRUCTIONS</span></p>
+        </div>
+      </a>
+
+         
+          <nav class="side-bar" id="side-bar">
+          <a href="#" class="close" id="close" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+          <a href="index.html" >Home</a>
+          <a href="about.html">About</a>
+          <a href="pricing.html">Pricing</a>
+          <!-- <a href="#contact" class="nav-link" data-container-id="container1">Contact Us</a> -->
+          <a href="#contact" onclick="container1()" >Contact Us</a>
+          <!-- <a href="#contact" onclick="login_func()">Contact Us</a> -->
+          </nav>
+        
+   
+      <header class="nav-bar">
+        <a href="index.html" class="logo-text"></a>
+      <nav class="page">
+          <a href="index.html" class="hideOnmobile">Home</a>
+          <a href="about.html" class="hideOnmobile">About</a>
+          <a href="pricing.html" class="hideOnmobile active">Pricing</a>
+          <!-- <a href="#contact" class="nav-link hideOnmobile"data-container-id="container1">Contact Us</a> -->
+          <a href="#contact" onclick="container1()" class="hideOnmobile">Contact Us</a>
+          <!-- <a class="hideOnmobile" href="#contact" onclick="login_func()">Contact Us</a> -->
+          <a href="#" class="open" onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+      </nav>
+       </header>
+      
+      
+<div class="home-section">
+  <h1 class="main-heading">Crafting Your Perfect Living Space</h1>
+  
+  <p class="intro-text">
+    Experience bespoke home solutions with our four-tiered excellence system. 
+    Starting at <span class="highlight-price">₹1600/sq. ft.</span>, discover 
+    the perfect balance of luxury and practicality.
+  </p>
+
+  <div class="plan-grid">
+    <div class="plan-card silver">
+      <div class="plan-icon">🥈</div>
+      <h3>Silver Essence</h3>
+      <p class="price">From ₹1600/sq. ft.</p>
+      <ul class="features">
+        <li>Premium foundation package</li>
+        <li>Contemporary design templates</li>
+        <li>Smart space optimization</li>
+      </ul>
+      <!-- <button class="cta-btn">Explore Silver</button> -->
+      
+  
+          <a href="silver-plan.html"><button class="cta-btn">Explore Silver</button></a>
+       
+    </div>
+
+    <div class="plan-card gold">
+      <div class="plan-icon">🥇</div>
+      <h3>Gold Horizon</h3>
+      <p class="price">From ₹1800/sq. ft.</p>
+      <ul class="features">
+        <li>All Silver features +</li>
+        <li>Premium material upgrades</li>
+        <li>Custom layout options</li>
+      </ul>
+      <!-- <button class="cta-btn">Discover Gold</button> -->
+
+        <a href="gold-plan.html"><button class="cta-btn">Discover Gold</button></a>
+      
+    </div>
+
+    <div class="plan-card diamond">
+      <div class="plan-icon">💎</div>
+      <h3>Diamond Elite</h3>
+      <p class="price">From ₹2000/sq. ft.</p>
+      <ul class="features">
+        <li>All Gold features +</li>
+        <li>Luxury tech integration</li>
+        <li>Architectural consultation</li>
+      </ul>
+      <!-- <button class="cta-btn">Experience Diamond</button> -->
+      <a href="diamond-plan.html"><button class="cta-btn">Experience Diamond</button></a>
+    </div>
+
+    <div class="plan-card platinum">
+      <div class="plan-icon">🎖️</div>
+      <h3>Platinum Legacy</h3>
+      <p class="price">From ₹2200/sq. ft.</p>
+      <ul class="features">
+        <li>ll Diamond features +</li>
+        <li>Bespoke design service</li>
+        <li>Concierge project management</li>
+      </ul>
+      <!-- <button class="cta-btn">Create Legacy</button> -->
+      <a href="platinum-plan.html"><button class="cta-btn">Create Legacy</button></a>
+
+    </div>
+  </div>
+
+
+  <p class="closing-statement">
+    🔍 Compare plans or schedule a free consultation with our design experts.
+  </p>
+</div>
+
+          
+  <footer>
+    <div class="footer">
+      <div class="footer-nav">
+        <h2>AMMAR & ARBAB</h2>
+        <h2>Constructions</h2>
+      </div>
+    <div class="footer-nav">
+      <a href="index.html"><p class="text-fade">Home</p></a>
+      <a href="about.html"><p class="text-fade">About us</p></a>
+      <a href="pricing.html"><p class="text-fade">Pricing</p></a>
+    </div>
+
+    <div class="footer-nav">
+      <h3>Contact</h3>
+      <div>
+        <img src="img/phone.png" class="icon" alt="" />
+        <a href="tel: 9449600771" style="font-size: 16px; ">9449600771</a>
+        </div>
+        <div>
+        <img src="img/phone.png" class="icon" alt="" />
+        <a href="tel: 9916818241" style="font-size: 16px; ">9916818241</a>
+        </div>
+        <div>
+         <img src="img/email.png" class="icon" alt="" />
+       <a href="mailto: ammarandarbabconstructions@gmail.com" style="font-size: 16px; "> ammarandarbabconstructions@gmail.com</a>
+       </div>
+      </div>
+     </div>
+    <div data-w-id="6f735747-ffb8-f389-8db5-a5b2bb652947" class="w-layout-vflex footer-licensing-wrap">
+      <div class="footer-copyright">
+        <div style="line-height: 0.9em;">
+      <span >
+        <img src="img/logo_no_bg2_3.png" width="20px" height="20px">A&A Constructions
+      </span>
+      <span id="copyright">
+        © 
+        <script>
+          document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+        </script>
+        </span>
+        </div>
+        <a href="/templates/licensing" class="footer-licensing-link">All Rights Reserved. Licensing</a>
+        <div class="credits">Credits: <a href="https://www.vecteezy.com/">vecteezy</a>/<a href="https://www.unsplash.com/">Unsplash</a></div>
+      </div>
+    
+    </div>
+  </footer>
+
+</div>
+
+  <div id="contact" class="container">
+ <div class="containerBox">
+   <button class="closeBtn" onclick="container1()">
+     <span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span>
+   </button>
+   <h3 class="title">Let's get in touch</h3>
+       <p class="text-contact">
+        Have a project in mind? Contact us today for expert construction solutions and reliable service!
+       </p>
+
+       <div class="info">
+    
+         <div class="information">
+          <img src="img/phone.png" class="icon" alt="" />
+          <a href="tel: 9449600771" style="font-size: 16px; color: black;">9449600771</a>
+        </div>
+        <div class="information">
+          <img src="img/phone.png" class="icon" alt="" />
+          <a href="tel: 9916818241" style="font-size: 16px; color: black;">9916818241</a>
+        </div>
+        <div class="information">
+         <img src="img/email.png" class="icon" alt="" />
+         <a href="mailto: ammarandarbabconstructions@gmail.com" style="font-size: 16px; color: black;" word-break: break-word;> ammarandarbabconstructions@gmail.com</a>
+       </div>
+      </div>
+      </div>
+    
+</div> 
+
+</main>
+
+
+<script src="script.js"></script>
+
+<script type="module">
+  import Swup from 'https://unpkg.com/swup@4?module';
+  const swup = new Swup();
+//   console.log(swup)
+//   console.log(location)
+// swup.hooks.on('page:view', (visit) => {
+//    location.reload();
+//    console.log('new page', visit.to.url)
+// });
+swup.hooks.on('animation:in:await', () => {
+  location.reload()
+});
+//document.getElementsByTagName("head")[0].innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">"; 
+
+  </script>
+  <script>
+    
+ 
+
+  </script>
+</body>
+
+</html>

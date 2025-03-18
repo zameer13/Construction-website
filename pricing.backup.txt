@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+    <title>A & A Constructions Ltd.</title>
+    <link rel = "icon" href = "img/logo.jpeg" type = "image/x-icon">
+    <meta charset="utf-8">
+    <meta content="IE=chrome" http-equiv="X-UA-Compatible"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&amp;display=swap"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="/module" defer src="node_modules/swup/dist/Swup.module.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="plan-container">
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <button class="category-tab active" data-category="home">🏡 Home</button>
+            <button class="category-tab" data-category="apartment">🏢 Apartment</button>
+            <button class="category-tab" data-category="villa">🏰 Villa</button>
+            <button class="category-tab" data-category="decor">🎨 Additional Decor</button>
+        </div>
+    
+        <!-- Silver Package Details -->
+        <div class="package-details silver-package">
+            <!-- Structure Section -->
+            <div class="detail-card">
+                <div class="detail-header">
+                    <i class="fas fa-cube"></i>
+                    <h3>Structural Specifications</h3>
+                </div>
+                <ul class="detail-list">
+                    <li><span class="highlight">TMT 550 Steel:</span> 12mm & 16mm rods</li>
+                    <li><span class="highlight">Cement:</span> Birla Super 53 Grade</li>
+                    <li><span class="highlight">Blockwork:</span> Ultratech cement plastering</li>
+                    <li><span class="highlight">Material:</span> M sand & 6-inch blocks</li>
+                </ul>
+            </div>
+    
+            <!-- Woodwork Section -->
+            <div class="detail-card">
+                <div class="detail-header">
+                    <i class="fas fa-tree"></i>
+                    <h3>Woodwork & Fixtures</h3>
+                </div>
+                <ul class="detail-list">
+                    <li><span class="highlight">Main Door:</span> Teakwood construction</li>
+                    <li><span class="highlight">Frames:</span> Red Salwood</li>
+                    <li><span class="highlight">Windows:</span> UPVC/Aluminum sliding</li>
+                    <li><span class="highlight">Hardware:</span> Premium MS fittings</li>
+                </ul>
+            </div>
+    
+            <!-- Interior Section -->
+            <div class="detail-card">
+                <div class="detail-header">
+                    <i class="fas fa-paint-roller"></i>
+                    <h3>Interior Finishes</h3>
+                </div>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <span class="tag">Flooring</span>
+                        <p>2x4 ft tiles (₹40/sq ft max)</p>
+                    </div>
+                    <div class="detail-item">
+                        <span class="tag">Wall Finish</span>
+                        <p>Asian Tractor Emulsion (3 coats)</p>
+                    </div>
+                    <div class="detail-item">
+                        <span class="tag">Kitchen</span>
+                        <p>Granite slabs & ₹30/sq ft tiles</p>
+                    </div>
+                    <div class="detail-item">
+                        <span class="tag">Plumbing</span>
+                        <p>Astral/Supreme pipes & fixtures</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Exclusions Section -->
+            <div class="exclusion-notice">
+                <i class="fas fa-exclamation-triangle"></i>
+                <p>Not Included: Wardrobes & Kitchen Cabinets</p>
+            </div>
+        </div>
+    </div>
+
+    <main class="plan-details-page">
+        <div class="plan-hero">
+            <div class="container">
+                <nav class="plan-nav">
+                    <a href="pricing.html" class="back-btn">
+                        <i class="fas fa-arrow-left"></i> All Plans
+                    </a>
+                    <img src="logo.png" alt="A&A Logo" class="plan-logo">
+                </nav>
+                
+                <div class="plan-header">
+                    <div class="plan-badge silver">
+                        <i class="fas fa-medal"></i>
+                        <h1>Silver Essence Plan</h1>
+                    </div>
+                    <p class="plan-price">Starting at ₹1600/sq.ft</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="plan-features">
+            <div class="container">
+                <div class="feature-card">
+                    <h2><i class="fas fa-star"></i> Key Features</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div class="feature-text">
+                                <h3>Premium Foundation</h3>
+                                <p>High-quality TMT steel and concrete mixture for lasting durability</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div class="feature-text">
+                                <h3>Modern Design Templates</h3>
+                                <p>Choose from 15+ contemporary architectural designs</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div class="feature-text">
+                                <h3>Smart Space Optimization</h3>
+                                <p>Professional space planning for maximum utilization</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="plan-cta">
+                    <h3>Ready to Build Your Dream?</h3>
+                    <div class="cta-group">
+                        <a href="#contact" class="ctasub-btn">
+                            <i class="fas fa-phone"></i> Schedule Consultation
+                        </a>
+                        <a href="brochure.pdf" download class="ctasub-btn outline">
+                            <i class="fas fa-download"></i> Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+<div id="contact" class="container">
+  <div class="containerBox">
+    <button class="closeBtn" onclick="container1()">
+      <span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span>
+    </button>
+    <h3 class="title">Let's get in touch</h3>
+        <p class="text-contact">
+          Have a project in mind? Contact us today for expert construction solutions and reliable service!
+        </p>
+ 
+        <div class="info">
+          <div class="information">
+            <img src="img/phone.png" class="icon" alt="" />
+            <a href="tel: 9449600771" style="font-size: 16px; color: black;">9449600771</a>
+          </div>
+          <div class="information">
+            <img src="img/phone.png" class="icon" alt="" />
+            <a href="tel: 9916818241" style="font-size: 16px; color: black;"> 9916818241</a>
+          </div>
+          <div class="information">
+           <img src="img/email.png" class="icon" alt="" />
+           <a href="mailto: ammarandarbabconstructions@gmail.com" style="font-size: 16px; color: black;"> ammarandarbabconstructions@gmail.com</a>
+         </div>
+        </div>
+   
+    </div>
+ 
+ </div> 
+<!-- </main> -->
+
+
+</body>
+
+</html>
+
+
+
+.plan-details-page {
+  padding: 4rem 1rem;
+  min-height: 100vh;
+}
+
+.plan-details-page .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #2b6cb0;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #2c5282;
+}
+
+.plan-details-page {
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.plan-hero {
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  padding: 2rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.plan-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2b6cb0;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #2b6cb011;
+}
+
+.plan-logo {
+  height: 40px;
+}
+
+.plan-header {
+  text-align: center;
+}
+
+.plan-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.plan-badge.silver {
+  color: #c0c0c0;
+}
+
+.plan-badge h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.plan-price {
+  color: #2b6cb0;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.fa-check-circle {
+  color: #48bb78;
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.feature-text h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1a365d;
+}
+
+.feature-text p {
+  color: #718096;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.plan-cta {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cta-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctasub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: #2b6cb0;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctasub-btn.outline {
+  background: white;
+  color: #2b6cb0;
+  border: 2px solid #2b6cb0;
+}
+
+.ctasub-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .plan-badge {
+      flex-direction: column;
+      padding: 1.5rem;
+  }
+  
+  .feature-list li {
+      flex-direction: column;
+      align-items: start;
+  }
+}
